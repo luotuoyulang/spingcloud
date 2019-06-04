@@ -1,0 +1,18 @@
+server:
+  port: 5001
+
+eureka:
+  instance:
+    hostname: eureka5001.com
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka5000.com:5000/eureka/
+  server:
+    # 测试时关闭自我保护机制，保证不可用服务及时踢出
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 2000
+spring:
+  application:
+    name: eurka-server

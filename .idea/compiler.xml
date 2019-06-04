@@ -11,6 +11,7 @@
         <module name="gitway" />
         <module name="member" />
         <module name="order" />
+        <module name="order_8081" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
