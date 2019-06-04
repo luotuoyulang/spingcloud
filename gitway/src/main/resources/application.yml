@@ -7,7 +7,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:5000/eureka/
+      defaultZone: http://eureka5001.com:5001/eureka/,http://eureka5000.com:5000/eureka/
   instance:
     prefer-ip-address: true
 #zuul:
@@ -19,3 +19,19 @@ eureka:
 #    serviceId: model-order（对应的相关服务）
 #  ignored-patterns: /*-service/** （统一上面的配置，其他入口忽略）
 #  ignored-services: order-service（忽略整个服务，对外提供接口）
+
+zuul:
+  retryable: true
+ribbon:
+  ConnectTimeout: 250 # 连接超时时间(ms)
+  ReadTimeout: 2000 # 通信超时时间(ms)
+  OkToRetryOnAllOperations: true # 是否对所有操作重试
+  MaxAutoRetriesNextServer: 2 # 同一服务不同实例的重试次数
+  MaxAutoRetries: 1 # 同一实例的重试次数
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000 # 熔断超时时长：6000ms
