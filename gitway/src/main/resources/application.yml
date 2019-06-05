@@ -19,7 +19,9 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka5001.com:5001/eureka/,http://eureka5000.com:5000/eureka/
   instance:
+    # 显示真实ip
     prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
 #zuul:
 #  #（自定义路由映射）
 #  prefix: /api（前缀）
