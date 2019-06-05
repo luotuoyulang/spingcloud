@@ -34,6 +34,9 @@ eureka:
 
 zuul:
   retryable: true
+  routes:
+    user-service: #自定义名称
+      sensitiveHeaders: "*"
 ribbon:
   ConnectTimeout: 250 # 连接超时时间(ms)
   ReadTimeout: 2000 # 通信超时时间(ms)

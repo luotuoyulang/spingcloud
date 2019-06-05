@@ -29,4 +29,14 @@ public class PersonOrder {
         map.put("sessionid",id);
         return map;
     }
+
+    @RequestMapping(value = "/c",method = RequestMethod.GET)
+    public HashMap<String,String> c(HttpServletRequest request){
+        request.getSession().invalidate();
+        String id = request.getSession().getId();
+        HashMap<String, String> map = new HashMap<>();
+        map.put("port","8080");
+        map.put("sessionid",id);
+        return map;
+    }
 }
