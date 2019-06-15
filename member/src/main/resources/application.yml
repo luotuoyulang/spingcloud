@@ -5,6 +5,22 @@ spring:
   application:
     name: member
 
+  redis:
+    database: 0
+    host: 188.131.147.130
+    port: 6379
+    password: 123456
+    timeout: 50000ms
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
+
+    session:
+      store-type: redis
+
+
 eureka:
   client:
     serviceUrl:

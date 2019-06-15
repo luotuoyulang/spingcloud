@@ -8,7 +8,6 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 
 @EnableEurekaServer
 @SpringBootApplication
-@EnableRedisHttpSession
 public class Eureka_5000 {
 
     public static void main(String[] args) {

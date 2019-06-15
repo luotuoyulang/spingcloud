@@ -1,2 +1,3 @@
 
-qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¨ğ™âúÿÿÿÿ8åÃ§—²-
+qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¨ğ™âúÿÿÿÿ8åÃ§—²-
+¥squid:UselessImportCheck"uRemove this unused import 'org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession'.(ôÄ’¥şÿÿÿÿ8¸°ó´-

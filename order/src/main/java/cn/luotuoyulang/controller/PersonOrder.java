@@ -16,8 +16,9 @@ public class PersonOrder {
     PersonMemberService personMember;
 
     @RequestMapping(value = "/a",method = RequestMethod.GET)
-    public String personList(){
+    public String personList(HttpServletRequest request){
         String s = personMember.personList();
+        System.err.println("===="+request.getSession().getId());
         return s;
     }
 

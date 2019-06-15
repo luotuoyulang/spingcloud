@@ -16,7 +16,6 @@ import org.springframework.web.filter.CorsFilter;
 @EnableDiscoveryClient
 @EnableEurekaClient
 @SpringBootApplication
-@EnableRedisHttpSession
 public class Order {
 
     public static void main(String[] args) {

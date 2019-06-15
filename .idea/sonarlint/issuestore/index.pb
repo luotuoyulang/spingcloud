@@ -63,3 +63,11 @@ j
 :eureka-5001/src/main/java/cn/luotuoyulang/Eureka_5001.java,1\b\1b98e4d229edd295649066a7a5bf47bb12c9c0ed
 e
 5order_8081/src/main/java/luotuoyulang/Order_8081.java,d\2\d27e7688d2e9440afeee9616ab4496bfb7917ba4
+D
+common-utils/pom.xml,6\3\6337cedabd1f3d56c7e738af33c106565b647f27
+
+Ocommon-utils/src/main/java/cn/luotuoyulang/config/HeaderRequestInterceptor.java,d\e\de2beaac164652ab73a3a40292ffa12cb1203152
+x
+Hcommon-utils/src/main/java/cn/luotuoyulang/config/HttpSessionConfig.java,1\c\1ca495853cab394aee75aa69c091c75d12d7290b
+‚
+Rcommon-utils/src/main/java/cn/luotuoyulang/config/HttpSessionConfigProperties.java,3\d\3dce6c752661d3784beeb45b52ce495976098f8a

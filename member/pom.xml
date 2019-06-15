@@ -28,8 +28,10 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
+            <groupId>cn.luotuoyulang</groupId>
             <artifactId>common-utils</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 </project>

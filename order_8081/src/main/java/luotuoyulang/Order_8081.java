@@ -12,7 +12,6 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 @EnableDiscoveryClient
 @EnableEurekaClient
 @SpringBootApplication
-@EnableRedisHttpSession
 public class Order_8081 {
 
     public static void main(String[] args) {

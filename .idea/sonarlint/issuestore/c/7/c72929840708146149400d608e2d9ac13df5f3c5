@@ -1,5 +1,8 @@
 
+‹squid:S1319#"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(öÏ8ÑÙÖÀ²-
+‹squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(€«ÒÍ8ÉË–—²-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ùƒ»†øÿÿÿÿ8òºˆ‹´-
+ksquid:S4488""HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ö“¢»ûÿÿÿÿ8ÑÙÖÀ²-
 fsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(øæºĞ8²ÄøÁ±-
-wsquid:S1488"YImmediately return this expression instead of assigning it to the temporary variable "s".(ûÌªì8Ê·Ã±-
-ksquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ë†„ûıÿÿÿÿ8ÉË–—²-
-‹squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(€«ÒÍ8ÉË–—²-
+ksquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ë†„ûıÿÿÿÿ8ÉË–—²-

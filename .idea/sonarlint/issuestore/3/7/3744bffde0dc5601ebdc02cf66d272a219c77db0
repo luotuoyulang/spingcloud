@@ -1,5 +1,5 @@
 
-fsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(øæºÐ8ø•†—²-
 psquid:S1488"YImmediately return this expression instead of assigning it to the temporary variable "s".(ûÌªì
-ksquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ë†„ûýÿÿÿÿ8þÉŠ—²-
+fsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(øæºÐ8ø•†—²-
 ‹squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(€«ÒÍ8ñ´’—²-
+ksquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ë†„ûýÿÿÿÿ8þÉŠ—²-

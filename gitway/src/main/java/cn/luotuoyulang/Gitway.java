@@ -22,7 +22,6 @@ import java.util.Arrays;
 @SpringBootApplication
 @EnableZuulProxy //（启动zuul服务额度注解）
 @EnableDiscoveryClient //（注册到注册中心的注解）
-@EnableRedisHttpSession
 public class Gitway {
     public static void main(String[] args) {
         SpringApplication.run(Gitway.class,args);

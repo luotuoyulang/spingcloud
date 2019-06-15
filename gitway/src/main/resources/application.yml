@@ -9,10 +9,15 @@ spring:
     host: 188.131.147.130
     port: 6379
     password: 123456
-    jedis:
-      pool:
-        max-active: 8
     timeout: 50000ms
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
+
+    session:
+      store-type: redis
 
 eureka:
   client:
@@ -33,10 +38,14 @@ eureka:
 #  ignored-services: order-service（忽略整个服务，对外提供接口）
 
 zuul:
-  retryable: true
+  #ignored-services: microservicecloud-dept
+  #prefix: /atguigu
+  ignored-services: "*"
   routes:
-    user-service: #自定义名称
-      sensitiveHeaders: "*"
+    mydept.serviceId: order
+    mydept.path: /order/**
+    mydept.sensitiveHeaders: "*"
+
 ribbon:
   ConnectTimeout: 250 # 连接超时时间(ms)
   ReadTimeout: 2000 # 通信超时时间(ms)
